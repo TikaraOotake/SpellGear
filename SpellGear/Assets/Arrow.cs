@@ -50,4 +50,16 @@ public class Arrow : BulletBase
             Destroy(this.gameObject);
         }
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") ||
+            collision.gameObject.layer == LayerMask.NameToLayer("Enemy"))
+        {
+            if (MagicPrefab)
+            {
+                Instantiate(MagicPrefab, transform.position, Quaternion.identity);
+            }
+            Destroy(this.gameObject);
+        }
+    }
 }

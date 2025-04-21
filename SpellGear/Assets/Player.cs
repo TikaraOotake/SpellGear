@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.XR;
 
 public class Player : MonoBehaviour
@@ -11,6 +12,9 @@ public class Player : MonoBehaviour
     private GameObject Camera;//カメラのオブジェクトを取得
     [SerializeField]
     private GameObject Model;//モデルのオブジェクトを取得
+
+    private Image UI_WeaponImage;
+    private Image UI_MagicImage;
 
     [SerializeField]
     private Vector3 CameraRot;
@@ -29,6 +33,8 @@ public class Player : MonoBehaviour
     private MagicData[] MagicArray = new MagicData[6];
     [SerializeField]
     private WeaponData[] WeaponArray = new WeaponData[6];
+    private int MagicIndex;
+    private int WeaponIndex;
 
     private Vector3 InputDirection = new Vector3(0.0f, 0.0f, 0.0f);
 
@@ -54,6 +60,9 @@ public class Player : MonoBehaviour
             }
         }
 
+        UI_WeaponImage = GameObject.Find("UI_Weapon").GetComponent<Image>();
+        UI_MagicImage = GameObject.Find("UI_Magic").GetComponent<Image>();
+
         rb = GetComponent<Rigidbody>();
 
         // マウスカーソルを画面中央に固定し、非表示にする
@@ -77,12 +86,23 @@ public class Player : MonoBehaviour
 
         //テスト用にいくつかセットしてみる
         WeaponData BowData = Resources.Load<WeaponData>("Weapon/Bow");
+        WeaponData BottleData = Resources.Load<WeaponData>("Weapon/Bottle");
+        WeaponData SwordData = Resources.Load<WeaponData>("Weapon/Sword");
+        WeaponData CaneData = Resources.Load<WeaponData>("Weapon/Cane");
         WeaponArray[0] = Instantiate(BowData);
-        WeaponArray[1] = Instantiate(BowData);
-        WeaponArray[2] = Instantiate(BowData);
-        WeaponArray[3] = Instantiate(BowData);
+        WeaponArray[1] = Instantiate(BottleData);
+        WeaponArray[2] = Instantiate(SwordData);
+        WeaponArray[3] = Instantiate(CaneData);
         WeaponArray[4] = Instantiate(BowData);
         WeaponArray[5] = Instantiate(BowData);
+        MagicData FireData = Resources.Load<MagicData>("Magic/Fire");
+        MagicData IceData = Resources.Load<MagicData>("Magic/Ice");
+        MagicArray[0] = Instantiate(FireData);
+        MagicArray[1] = Instantiate(IceData);
+        MagicArray[2] = Instantiate(FireData);
+        MagicArray[3] = Instantiate(IceData);
+        MagicArray[4] = Instantiate(FireData);
+        MagicArray[5] = Instantiate(IceData);
     }
 
     // Update is called once per frame
@@ -91,6 +111,8 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         Shot();
+        RotationWeapon();
+        UI_Settings();
         UpdateCameraCondition();
     }
 
@@ -204,8 +226,16 @@ public class Player : MonoBehaviour
                     GameObject bullet = Instantiate(WeaponArray[0].GetActionPrefab(), new Vector3(0.0f, 1.5f, 0.0f) + transform.position, Quaternion.identity);
                     bullet.GetComponent<BulletBase>().SetVelocty(Camera.transform.forward * 30.0f);
                     bullet.GetComponent<BulletBase>().SetRotation(CameraRot);
+                    MagicData data = MagicArray[MagicIndex];
+                    if (data)
+                    {
+                        if(data.GetActionPrefab())
+                        {
+                            bullet.GetComponent<BulletBase>().SetMagic(data.GetActionPrefab());
+                        }
+                    }
+                    
                 }
-
             }
         }
         if (Input.GetMouseButtonDown(1))
@@ -220,6 +250,38 @@ public class Player : MonoBehaviour
             if (Camera)
             {
                 Camera.GetComponent<MainCamera>().SetIslookIn(false);
+            }
+        }
+    }
+    private void RotationWeapon()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ++WeaponIndex;
+            WeaponIndex = ((WeaponIndex % 4) + 4) % 4;
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ++MagicIndex;
+            MagicIndex = ((MagicIndex % 4) + 4) % 4;
+        }
+    }
+    private void UI_Settings()
+    {
+        if (WeaponIndex >= 0 && WeaponIndex <= 3)
+        {
+            WeaponData data = WeaponArray[WeaponIndex];
+            if (UI_WeaponImage && data)
+            {
+                UI_WeaponImage.sprite = data.GetSprite();
+            }
+        }
+        if (MagicIndex >= 0 && MagicIndex <= 3)
+        {
+            MagicData data = MagicArray[MagicIndex];
+            if (UI_MagicImage && data)
+            {
+                UI_MagicImage.sprite = data.GetSprite();
             }
         }
     }

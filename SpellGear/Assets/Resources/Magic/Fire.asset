@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   Sprite: {fileID: 1455387625, guid: f0eec18460134f7479e2387028236885, type: 3}
-  ActionPrefab: {fileID: 0}
+  ActionPrefab: {fileID: 6577778598138063223, guid: 57ba42d9841134b419d1ca56f7388407, type: 3}
   AttackPower: 0
