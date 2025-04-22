@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bottle
   Sprite: {fileID: -1296918050, guid: c23b30b1839ef4c4683be72e79c303c6, type: 3}
-  ActionPrefab: {fileID: 0}
+  ActionPrefab: {fileID: 8837215757283543732, guid: 3fb4d88579b6b3648b10a1648f7d3752, type: 3}
   AttackPower: 0

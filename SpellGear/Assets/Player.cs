@@ -97,9 +97,10 @@ public class Player : MonoBehaviour
         WeaponArray[5] = Instantiate(BowData);
         MagicData FireData = Resources.Load<MagicData>("Magic/Fire");
         MagicData IceData = Resources.Load<MagicData>("Magic/Ice");
+        MagicData WindData = Resources.Load<MagicData>("Magic/Wind");
         MagicArray[0] = Instantiate(FireData);
         MagicArray[1] = Instantiate(IceData);
-        MagicArray[2] = Instantiate(FireData);
+        MagicArray[2] = Instantiate(WindData);
         MagicArray[3] = Instantiate(IceData);
         MagicArray[4] = Instantiate(FireData);
         MagicArray[5] = Instantiate(IceData);
@@ -223,16 +224,23 @@ public class Player : MonoBehaviour
             {
                 if (WeaponArray[0].GetActionPrefab())
                 {
-                    GameObject bullet = Instantiate(WeaponArray[0].GetActionPrefab(), new Vector3(0.0f, 1.5f, 0.0f) + transform.position, Quaternion.identity);
-                    bullet.GetComponent<BulletBase>().SetVelocty(Camera.transform.forward * 30.0f);
-                    bullet.GetComponent<BulletBase>().SetRotation(CameraRot);
-                    MagicData data = MagicArray[MagicIndex];
-                    if (data)
+                    if(WeaponArray[WeaponIndex].GetActionPrefab())
                     {
-                        if(data.GetActionPrefab())
+                        GameObject bullet = Instantiate(WeaponArray[WeaponIndex].GetActionPrefab(), new Vector3(0.0f, 1.5f, 0.0f) + transform.position, Quaternion.identity);
+                        bullet.GetComponent<BulletBase>().SetVelocty(Camera.transform.forward * 30.0f);
+                        bullet.GetComponent<BulletBase>().SetRotation(CameraRot);
+                        MagicData data = MagicArray[MagicIndex];
+                        if (data)
                         {
-                            bullet.GetComponent<BulletBase>().SetMagic(data.GetActionPrefab());
+                            if (data.GetActionPrefab())
+                            {
+                                bullet.GetComponent<BulletBase>().SetMagic(data.GetActionPrefab());
+                            }
                         }
+                    }
+                    else
+                    {
+                        Debug.Log("íeÇÃÉvÉåÉnÉuÇ™ê›íËÇ≥ÇÍÇƒÇ¢Ç‹ÇπÇÒ");
                     }
                     
                 }

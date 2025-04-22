@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2f63db7da7061744cae9995500160453, type: 3}
-  m_Name: Fire
+  m_Name: Wind
   m_EditorClassIdentifier: 
-  Name: Fire
-  Sprite: {fileID: 1455387625, guid: f0eec18460134f7479e2387028236885, type: 3}
-  ActionPrefab: {fileID: 6577778598138063223, guid: 57ba42d9841134b419d1ca56f7388407, type: 3}
+  Name: Wind
+  Sprite: {fileID: -1153300173, guid: f0eec18460134f7479e2387028236885, type: 3}
+  ActionPrefab: {fileID: 7613493907756832159, guid: 3678799a14803ec4d97526291e03cb67, type: 3}
   AttackPower: 0

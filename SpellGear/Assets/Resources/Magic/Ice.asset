@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f63db7da7061744cae9995500160453, type: 3}
   m_Name: Ice
   m_EditorClassIdentifier: 
-  Name: 
-  Sprite: {fileID: -15419693, guid: f0eec18460134f7479e2387028236885, type: 3}
+  Name: Ice
+  Sprite: {fileID: -1946264978, guid: f0eec18460134f7479e2387028236885, type: 3}
   ActionPrefab: {fileID: 6578238492849466457, guid: 4c9dafd45157f5e489644f83166dca18, type: 3}
   AttackPower: 0
