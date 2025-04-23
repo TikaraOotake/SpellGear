@@ -16,6 +16,6 @@ public class AutoRotate : MonoBehaviour
     void Update()
     {
         Vector3 rotate = transform.eulerAngles;
-        transform.eulerAngles = rotate + RotateSpeed;
+        transform.eulerAngles = rotate + (RotateSpeed * Time.deltaTime * 700.0f);
     }
 }
