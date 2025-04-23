@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\sourcetree\\SpellGear1\\SpellGear\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|c:\\sourcetree\\spellgear1\\spellgear\\assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|c:\\sourcetree\\spellgear1\\spellgear\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|c:\\sourcetree\\spellgear1\\spellgear\\assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|c:\\sourcetree\\spellgear1\\spellgear\\assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Arrow.cs",
               "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Arrow.cs",
               "RelativeDocumentMoniker": "Assets\\Arrow.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Arrow.cs*",
-              "RelativeToolTip": "Assets\\Arrow.cs*",
-              "ViewState": "AgIAACMAAAAAAAAAAAAUwD4AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Arrow.cs",
+              "RelativeToolTip": "Assets\\Arrow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T18:53:58.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T18:53:58.051Z"
             },
             {
               "$type": "Document",
@@ -49,27 +48,27 @@
               "RelativeDocumentMoniker": "Assets\\Player.cs",
               "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Player.cs",
               "RelativeToolTip": "Assets\\Player.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAQwOgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAALMAAAAAAAAAAAAUwM0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:11:58.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AutoRotate.cs",
               "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\AutoRotate.cs",
               "RelativeDocumentMoniker": "Assets\\AutoRotate.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\AutoRotate.cs",
-              "RelativeToolTip": "Assets\\AutoRotate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\AutoRotate.cs*",
+              "RelativeToolTip": "Assets\\AutoRotate.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:32:02.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Fire.cs",
               "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Fire.cs",
               "RelativeDocumentMoniker": "Assets\\Fire.cs",
@@ -77,8 +76,7 @@
               "RelativeToolTip": "Assets\\Fire.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:32:01.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:32:01.585Z"
             }
           ]
         }

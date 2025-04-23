@@ -203,7 +203,7 @@ public class Player : MonoBehaviour
 
         if (Vel.x * Vel.x + Vel.z * Vel.z <= BaseSpeed * BaseSpeed)
         {
-            rb.AddForce(MoveVec * BaseSpeed);
+            rb.AddForce(MoveVec * BaseSpeed*Time.deltaTime*700.0f);
         }
 
 
