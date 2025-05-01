@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\sourcetree\\SpellGear1\\SpellGear\\",
+  "WorkspaceRootPath": "D:\\23CU0237\\SpellGear\\SpellGear\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|d:\\23cu0237\\spellgear\\spellgear\\assets\\script\\player\\testplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\player\\testplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|c:\\sourcetree\\spellgear1\\spellgear\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|d:\\23cu0237\\spellgear\\spellgear\\assets\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|d:\\23cu0237\\spellgear\\spellgear\\assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|D:\\23CU0237\\SpellGear\\SpellGear\\assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\autorotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|D:\\23CU0237\\SpellGear\\SpellGear\\assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\arrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|C:\\sourcetree\\SpellGear1\\SpellGear\\assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|D:\\23CU0237\\SpellGear\\SpellGear\\assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{076863EB-D5A0-546F-8F30-7B27ECDCDA2A}|Assembly-CSharp.csproj|solutionrelative:assets\\fire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,15 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "TestPlayer.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Script\\Player\\TestPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Player\\TestPlayer.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Script\\Player\\TestPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\Player\\TestPlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T05:18:01.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainCamera.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\MainCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\MainCamera.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\MainCamera.cs",
+              "RelativeToolTip": "Assets\\MainCamera.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAQwAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T05:15:40.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Arrow.cs",
-              "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Arrow.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Arrow.cs",
               "RelativeDocumentMoniker": "Assets\\Arrow.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Arrow.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Arrow.cs",
               "RelativeToolTip": "Assets\\Arrow.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -42,37 +76,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Player.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Player.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Player.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Player.cs",
               "RelativeToolTip": "Assets\\Player.cs",
-              "ViewState": "AgIAALMAAAAAAAAAAAAUwM0AAAA8AAAAAAAAAA==",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwMkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T18:11:58.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AutoRotate.cs",
-              "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\AutoRotate.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\AutoRotate.cs",
               "RelativeDocumentMoniker": "Assets\\AutoRotate.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\AutoRotate.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\AutoRotate.cs",
               "RelativeToolTip": "Assets\\AutoRotate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAFAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T17:32:02.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T17:32:02.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Fire.cs",
-              "DocumentMoniker": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Fire.cs",
+              "DocumentMoniker": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Fire.cs",
               "RelativeDocumentMoniker": "Assets\\Fire.cs",
-              "ToolTip": "C:\\sourcetree\\SpellGear1\\SpellGear\\Assets\\Fire.cs",
+              "ToolTip": "D:\\23CU0237\\SpellGear\\SpellGear\\Assets\\Fire.cs",
               "RelativeToolTip": "Assets\\Fire.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
